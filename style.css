@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: 100;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url('./imagens/WhatsApp\ Image\ 2023-11-23\ at\ 07.18.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner > header {
+    padding: 30px 15px;
+}
+
+.banner header h1 {
+    font-size: 23px;
+    color: rgb(35, 154, 252);
+}
+
+.banner h1 span{
+    color: white;
+}
+
+.banner-content{
+    display: grid;
+    height: 65%;
+    place-items: center;
+}
+
+.banner-content article {
+    font-size: 16px;
+    text-align: center;
+}
+
+.banner-content article h1, .banner-content article p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.banner-content article {
+    width: 65%;
+}
+
+.banner-content article h1{
+    font-size: 2.3em;
+}
+
+.banner-content article p{
+    line-height: 1.5;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    width: 180px;
+}
+
+.button:hover{
+ transform: scale(1.1);
+}
+
+.button-blue{
+    background-color: rgb(35, 154, 252);
+    color: white;
+}
+.button-white{
+background-color: white ;
+color: rgb(35, 154, 252);
+
+
+}
+
+.card, .cards, footer{
+    padding: 60px 80px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 60px 80px;
+}
+
+.card p {
+    margin: 15px 0;
+    line-height: 1.6;
+    color: rgb(rgb(226, 203, 203), green, blue);
+}
+    
+
+
+.icon{
+    border-radius: 100%;
+    width: 375px;
+    height: 375px;
+    object-fit: cover;
+}
+.card-blue{
+    background-color: rgb(42, 158, 204);
+    color: aliceblue;
+flex-direction: row-reverse;
+}
+
+.card-blue p{
+    color: azure;
+}
+ .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px 80px;
+    gap: 30px;
+ }
+ .cards article{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+
+ }
+ .cards p{
+    margin: 25px 0px;
+ }
+ footer{
+    
+ }
